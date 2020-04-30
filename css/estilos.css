@@ -1,0 +1,518 @@
+*{
+	box-sizing:border-box;
+	font-family:sans-serif;
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	margin: 0%;
+	padding: 0%;
+	min-height: 100vh;
+
+}
+
+input{
+	padding: 0 20px;
+}
+
+
+/*------------h1---------*/
+p{
+	margin: 10px auto;
+}
+
+/*---------logo---------*/
+
+.logo{
+	font-family: 'pacifico';
+	font-size: 70px;
+}
+
+.logo_main{
+	height: 200px;
+	width: 100%;
+	padding: 20px;
+	background-image:url(../img/portada.png);
+	color: white;
+	cursor: default;
+}
+
+.logo_small{
+	display: inline-block;
+	font-size: 20px;
+	padding: 4px;
+	margin-right: 50px;
+	color: #019CDE;
+	cursor: pointer;
+}
+
+/*-----------nav------------*/
+
+.nav{
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	background:rgb(1, 17, 85);
+	color: white;
+	padding: 0 20px;
+	transition: .3s ease all;
+	backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+.nav .wrap{
+	position: relative;
+	left: -150px;
+	transition: 0.4s ease all;
+}
+
+nav{
+	display: inline-block;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+nav a{
+	display: block;
+	padding: 20px;
+	margin: 0;
+	color: white;
+	text-decoration: none;
+	transition: 0.2s ease all;
+}
+
+nav a:hover{
+	color: white;
+	background: #019CDE;
+}
+
+.main{
+	margin: auto;
+	background: white;
+	padding: 80px 60px;
+	width: 82%;
+}
+
+body.nav_fixed .nav{
+	position: fixed;
+	top: 0;
+}
+
+body.nav_fixed .nav .wrap{
+	left: 0;
+}
+
+/*--------------menu--------*/
+
+.btn-menu{
+	width: 60px;
+	height: 60px;
+	padding: 22px;
+	text-align: center;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: #019CDE;
+	border-radius: 50%;
+	color: white;
+	cursor: pointer;
+	transition: all 500ms cubic-bezier(1, 0, 0, 1);
+	transform: translateX(100px);
+}
+
+.btn-menu:haver{
+	transform: scale(1.2);
+	background: #42acfa;
+}
+
+/*desde aqui hasta abajo es la parte de ANGEL NAUT*/
+
+
+.mision{
+	background:#E5F5F7 ;
+	height:330px;
+	width:700px;              /*AQUI LE PONGO EL TAMAÑO A LA CAJA LOS COLORES EL TIPO DE POCISIONAMIENTO , Y DONDE SE VA A UBICAR*/
+	left: 170px;
+	
+  
+  
+  }
+  
+  .mision h2{
+	background:#D4EDED;
+	text-decoration: underline;
+	color:#3A85E5;
+	padding:5px;                            /*AQUI LE DI TODO EL ESTILO A EL TITULO COMO EL COLOR TAMAÑO EL ESPACIO DE LAS
+											  LETRAS TIPO DE LETRA Y LA DECORACION DEL TEXTO*/
+	font-size: 30px;
+	font-family:"calibri ligth";
+	margin:0px;
+  }
+  
+  .mision p span{
+	padding:0px 15px;
+	text-decoration: underline;          /*AQUI LE DI TODO EL ESTILO A EL A EL TEXTO COMO EL COLOR TAMAÑO EL ESPACIO DE
+												  LAS LETRAS TIPO DE LETRA Y LA DECORACION DEL TEXTO*/
+	color: #7EA1CD;
+  }
+  
+  .mision hr{
+	margin:0px 25px;      /* AQUI LE DI TAMAÑO AL HR*/
+  }
+  .mision h3{
+	padding: 0px 15px;
+	color:#3A85E5;          /*AQUI LE DI UN ESPACIO A LAS LETRAS Y UN COLOR*/
+  }
+  
+  
+  
+  .texto1{
+	padding: 0px 15px;    /*AQUI LE DI UN COLOR I UN ESPACIO A LAS LETRAS*/
+	color: #7EA1CD;
+  }
+  
+  .texto2{
+	padding: 0px 15px;
+	color: #7EA1CD;
+	margin:0px 0px;    /*AQUI LE PUSE UN MARGIN CERO PARA QUE LAS CAJAS NO TENGAN NINGUN ESPACIO QUE LAS SEPARE*/
+  }
+  
+  /*DE HAY PARA ARRIBA ES LA CAJA DE MISION Y TODO SU CONTENIDO*/
+  
+  .vision{
+	background:#E5F5F7 ;
+	height:280px;
+	width:700px;
+	left: 170px;
+	
+  
+  }
+  
+  .vision h2{
+	background:#D4EDED;
+	text-decoration: underline;
+	color:#3A85E5;
+	padding:5px;
+	font-size: 30px;
+	font-family:"calibri ligth";
+	margin-top: 0px;
+  }
+													  /*AQUI HICE LO MISMO QUE EN LA CAJA DE ARRIBA*/
+  .vision p span{
+	padding:0px 15px;
+	text-decoration: underline;
+	color: #7EA1CD;
+  }
+  
+  .vision hr{
+	margin:0px 25px;
+  }
+  .vision h3{
+	padding: 0px 15px;
+	color:#3A85E5;
+  }
+  
+  
+  
+  .texto3{
+	padding:0px 15px;
+	color: #7EA1CD;
+  }
+  
+  .texto4{
+	padding:0px 15px;
+	color: #7EA1CD;
+	margin:0px;
+  }
+  /*DE HAY PARA ARRIBA ES LA CAJA DE VISION Y TODO SU CONTENIDO*/
+  .Financiamiento{
+	background:#E5F5F7 ;
+	height:290px;
+	width:700px;
+	left: 170px;
+	
+  
+  }
+  
+  .financiamiento h2{
+	background:#D4EDED;
+	text-decoration: underline;
+	color:#3A85E5;
+	padding:5px;
+	font-size: 30px;
+	font-family:"calibri ligth";
+	margin:0px;
+  }                                                         /*AQUI HISE LO MISMO QUE EN LA CAJA MISION*/
+  
+  .financiamiento p span{
+	padding:0px 15px;
+	text-decoration: underline;
+	color: #7EA1CD;
+  }
+  
+  .financiamiento hr{
+	margin:0px 25px;
+  }
+  
+  .texto5{
+	padding: 0px 15px;
+	color: #7EA1CD;
+  }
+  
+  .texto6{
+	padding:0px 15px;
+	color: #7EA1CD;
+  }
+  /*DE HAY PARA ARRIBA ES LA CAJA DE FINANCIAMIENTO Y TODO SU CONTENIDO*/
+  .sidebar{
+	width:300px;
+	height:900px;
+	background:#AECCF2;      /*AQUI LE DI LA POCISION A LA CAJA Y LE DI EL TAMAÑO Y EL COLOR*/
+	left:870px;
+	top:270px;
+	float: right;
+  
+  }
+  
+   .buzon h2{
+  background:#4E8EDE;
+  margin:0px;                     /*AQUI PUSE UN COLOR DE background AL TITULO Y UN ESPACIADO DE LETRAS 0 PARA QUE SE VE MAS ESTETICO*/
+  padding: 8px;
+  }
+  
+  .buzon img{
+	height: 70px;
+	width: 70px;
+	margin: 15px;
+  }
+  
+  .underline{
+	text-decoration: underline;
+	color: #7EA1CD;
+  
+  }
+  
+  
+  .buzon span{
+	  color: #7EA1CD;
+	  margin: 10px;
+  }
+  
+  .categorias h2{
+  background:#4E8EDE;
+  margin:10px 0px;
+  padding: 8px;
+  }
+  
+  .categorias p{
+	color: #7EA1CD;
+	margin: 0px 5px;
+  }
+  
+  .archivo h2{
+  background:#4E8EDE;
+  margin:10px 0px;
+  padding: 8px;
+  }
+  
+  .archivo p{
+	color: #7EA1CD;
+	margin: 0px 5px;
+  }
+  
+  .enlaces h2{
+  background:#4E8EDE;
+  margin:10px 0px;
+  padding: 8px;
+  }
+  
+  .enlaces p{
+	color: #7EA1CD;
+	margin: 0px 5px;
+  }
+  /*DE HAY PARA ARRIBA ES LA CAJA DEL SIDEBAR Y TODO SU CONTENIDO*/
+  
+  /*HASTA AQUI ES LA PARTE DE ANGEL*/
+  
+/*--------footer-Daniel.A-----------*/
+
+
+/*box-sizin:es una propiedad utilizada para cambiar el modelo de caja*/
+
+footer{
+	background:#51d1f6; 
+	color: white;
+	}
+	
+	/*Este estilo es para cuando la pagn este en modo completa pueda ocupar un maximo de ancho de 1600px*/
+	
+	.container-footer-all{
+	 max-width: 1600px;
+	 width: 100%;  
+	 margin: auto;
+	padding: 38px    
+	}
+	 
+	/* display-flex:modelo de caja*/
+	
+	.container-body{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	/*Esta es la maxima anchura de la columna 1*/
+	
+	.column1{
+		max-width: 400px;
+	}
+	
+	/*Este es el tamaño del titulo de la columna 1*/
+	
+	.column1 h1{
+	 font-size: 22px 
+	}
+	
+	/*tamaño y espacio de letras en el parrafo*/
+	
+	.column1 p{
+	 font-size: 14px;
+	 margin-top: 20px;
+	}
+	
+	/*maximo de anchura de la columna 2*/
+	
+	.column2{
+		max-width: 400px;
+	}
+	
+	/*tamaño del titulo columna 2*/
+	
+	.column2 h1{
+	 font-size:22px; 
+	 margin-left: 30px;
+	}
+	
+	/*esto es para que contenido de la segunda columna bajen 20px y el display sea flexible*/
+	.row{
+		margin-top: 20px;
+		display: flex;
+	}
+	
+	/*Esto es para la altura y el tamaño del icono para las imagenes*/
+	
+	.row img{
+	width: 36px;
+	height:36px;    
+	}
+	
+	/*Esto es para que los label se muevan los margenes hacia las izquierda y bajen hacia bajo 8px*/
+	
+	.row label{
+	margin-left: 8px;
+	margin-top: 8px;
+	}
+	
+	/*Esto es para que la columna 3 tenga un maximo de ancho de 400px*/
+	
+	.column3{
+		max-width: 400px;
+	}
+	
+	/*Tamaño de letras del titulo*/
+	
+	.column3 h1{
+	  font-size: 22px;
+	}
+	
+	
+	/*Esto es para que los contenedores row se muevan los margenes hacia las izquierda y bajen hacia bajo 20px y el display sea flexible*/
+	.row2{
+		margin-top:20px;
+		display: flex;
+	}
+	
+	/*Tamaño de las imagenes del segundo contenedor*/
+	
+	.row2 img{
+		width: 36px;
+		height: 36px;
+	}
+	
+	/*Este estilo es para que los label del segundo contenedor osea el margen baje 10px hacia abajo 10px. el magen se mueva mueva hacia la izuierda unos 20px y tenga un maximo de anchura de 140px*/
+	
+	.row2 label{
+		margin-top: 10px;
+		margin-left: 20px;
+		max-width: 140px;
+	}
+	
+	/*Este estilo es para que tenga un ancho del 100% y tenga un background del color azul turquesa*/
+	
+	.container-footer{
+		width: 100%;
+		background:#9fd5;
+	}
+	
+	/*Este estilo es para que el contenedor footer tenga un maximo ancho de 1200px.un margin auto para el centrado del margen, un display flexible un  justyfy-content:space-betwenn es para que tenga un espacio adyacente entre los itenms sean el mismo*/
+	
+	.footer{
+		max-width: 1200px;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		padding:20px;
+	}
+	
+	/*Esto es para que las a del contenedor no tengan un text decoration y tengan un color blanco y un font weight para que el grosor sea mas dinamico*/
+	
+	.copyright a{
+	 text-decoration: none;
+	 color: white;
+	 font-weight: bold;
+	}
+	
+	/*Esto es para que las a del contenedor information no tengan ningun text decoration y el color de las letras sean blancas*/
+	
+	.information a{
+	   text-decoration: none;
+		color: white;
+	}
+	
+	/*En esta parte utilizamos el media que es para poner el pie responsive osea adaptable*/
+	
+	@media screen and (max-width: 1100px){
+		
+		/*En esta etiqueta es para que las lineas puedan fluir cuando esten realizando el proceso responsive*/
+		
+		.container-body{
+			flex-wrap: wrap;
+		}
+		
+		/*En esta parte es para que la columna1 abarque todo el espacio en el footer*/
+		
+		.column1{
+			max-width: 100%;
+		}
+		
+		/*Este estilo es para que cuando se realize el responsive y se coloquen en bajo los margenes tengan un espacio de 35px*/
+		
+		.column2,
+		.column3{
+		margin-top: 35px;
+		}
+		
+	}
+	
+	
